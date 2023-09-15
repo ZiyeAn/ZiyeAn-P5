@@ -5,22 +5,23 @@ body {
   padding: 1rem;
   display: flex;
   justify-content: center;
-  background-color:#e1ecf5;
+  background-color:#fef6e4;
 }
 
 h1 {
   font-family:Copperplate, fantasy;
-  color: #f279aa;
+  color: #001858;
   font-size: 2.5rem;
 }
 
 h2 {
   font-family: fantasy;
-  color: #f279aa;
+  color: #cc8991;
   font-size: 1.5rem;
 }
 
 p {
+  color:#172c66;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -31,11 +32,11 @@ nav {
 }
 
 a:link {
-  color: #fcace7;
+  color: #cc8991;
 }
 
 a:visited{
-  color:#ff29c6;
+  color:#71a58e;
 }
 
 main {
