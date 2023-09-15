@@ -5,17 +5,18 @@ body {
   padding: 1rem;
   display: flex;
   justify-content: center;
+  background-color:#e1ecf5;
 }
 
 h1 {
   font-family:Copperplate, fantasy;
-  color: hotpink;
+  color: #f279aa;
   font-size: 2.5rem;
 }
 
 h2 {
   font-family: fantasy;
-  color: pink;
+  color: #f279aa;
   font-size: 1.5rem;
 }
 
