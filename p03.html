@@ -41,7 +41,13 @@
       <p>
         For this project, I use the number of ripples to present Hour (12-hour
         timing since this looks prettier), the number of rings per ripple to
-        represent minutes(using 10 minutes as an interval). To avoid the situation that nothing is shown when the minutes is single digit, the point in the middle is 
+        represent minutes(using 10 minutes as an interval). To avoid the
+        situation that nothing is shown when the minutes is single digit, the
+        point in the middle represent single digits. For example, if there is 3
+        points when pressing the mouse, That means it is around 3 AM/PM o'clock,
+        if there is 4 ripples and each ripple has 1 point and 2 rings, that
+        means it's about 4:20 (need to minus the single digit ring). The
+        rotation of the rings are based on the second().
       </p>
 
       <!-- 4. reflection -->
@@ -51,19 +57,15 @@
 
       <div class="fullwidth">
         <img
-          src="https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/IMG_9152%20Large.jpeg?v=1695358524785"
+          src="https://cdn.glitch.global/37ceb013-f438-4f12-b04d-aa6a3298d270/IMG_9225.jpg?v=1695945167351"
           alt="Process"
         />
       </div>
 
       <p>
-        Realizing this idea has proven to be extremely challenging. I researched
-        and applied noise in the transformation process of Kirby. I also
-        attempted to customize the function to make drawing Kirby easier.
-        However, I encountered difficulties when trying to utilize random
-        methods. Although I wrote functions for the transformed status of Kirby,
-        I am unable to incorporate them as assets and use random(). As a result,
-        I sought out tutorials and used random() to generate images that I drew.
+        I first drew a draft and write down the parameter I may need to use and
+        their relationship to time. Then I use some for loops to create the
+        ripples and their respective rings. The process is pretty succesful after planning out the parameters i need to use. I am pretty satisfied with the final result 
       </p>
 
       <!-- 4. reflection -->
